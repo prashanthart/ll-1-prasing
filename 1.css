@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.grammar{
+    background-color: rgb(230, 221, 221);
+    /* color: black; */
+}
+.forFirst{
+    /* width: auto; */
+    /* border: 1px solid black; */
+    padding-left: 2px;
+    /* margin-right: 2px; */
+    /* box-shadow: 0px 0px 3px black; */
+    border-radius: 5px;
+    box-shadow: rgb(50 50 93 / 25%) 5px 8px 13px 3px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+}
+
+.forFollow{
+    /* width: auto; */
+
+    /* border: 1px solid black; */
+    /* padding-right: 0px; */
+    padding-left: 2px;
+    /* margin-right: 1px; */
+    border-radius: 5px;
+    box-shadow: rgb(50 50 93 / 25%) 5px 8px 13px 3px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+}
+
+.llp{
+    padding-left: 2px;
+
+    border-radius: 5px;
+    box-shadow: rgb(50 50 93 / 25%) 5px 8px 13px 3px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+
+}

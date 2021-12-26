@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="1.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="bg-dark" style="height: 70px;" ><h2 class="text-center text-white pt-2">LL(1) parsing table</h2></header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <form >
+                    <div class="form-group mb-2">
+
+                        <label for=""><h4 class="pt-3">INPUT</h4></label>
+                        <textarea class="form-control textarea" name="" id="" cols="30" rows="10" placeholder="Enter grammar like A=B and epsilon=#"></textarea>
+                    </div>
+                    <button class="btn btn-primary btn1 "  onclick="display(); return false;">submit</button>
+                    <button  onClick="window.location.href=window.location.href" type="button" class="btn btn-danger">refresh</button>
+
+                </form>
+            </div>
+            <div class="col-sm-8 mt-2 op">
+                <h1 class="output" style="text-decoration: underline;">output</h1>
+                <h2>Grammar -</h2>
+                <div class="grammar">
+                    
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class = "container mt-3">
+        <div class="row">
+            <div class="col-sm-6"> 
+            <div class= "forFirst" >
+                <h3>First</h3>
+
+            </div>
+            </div>
+            <div class="col-sm-6 " >
+                <div class= "forFollow" >
+                <h3>Follow</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <hr>
+        <div class="row ">
+            <div class="col-sm-12">
+                <div class="llp">
+
+                </div>
+
+
+            </div>
+
+            
+        </div>
+    </div>
+    
+    
+    
+    <footer class="bg-dark" style="height: 45vh;">
+    <p>E=TX<br>
+        X=+TX<br>
+        X=#<br>
+        T=FY<br>
+        Y=*FY<br>
+        Y=#<br>
+        F=(E)<br>
+        F=i<br>
+        </p>
+
+    
+    </footer>
+
+    <script src="1.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
