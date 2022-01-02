@@ -286,10 +286,11 @@ var donee = [];
 
     
     let parseTable = document.createElement('table');
-    parseTable.classList.add('table','table-striped');
+    parseTable.classList.add('table','table-striped','table-white');
     let the = document.createElement('thead').appendChild(document.createElement('tr'));
     let si = document.createElement('th');
     si.textContent = "#";
+    
     the.appendChild(si);
     for(ap = 0;ap < sid; ap++){
         // printf("%c\t\t",ter[ap]);
